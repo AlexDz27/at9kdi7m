@@ -1,0 +1,16 @@
+.cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-bottom: 20%;
+  }
+}
+
+.section {
+  margin-bottom: 2rem;
+}
