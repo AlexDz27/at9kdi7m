@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SBM COMPANY — Производство и ремонт техники</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.h-1.css">
+    <script src="https://api-maps.yandex.ru/v3/?apikey=2b7d9147-4a30-4c29-9a2f-594b90fa8c59&lang=ru_RU" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -251,12 +253,7 @@
                 </div>
                 <div class="ump1-preview-image">
                     <div class="image-frame">
-                        <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="500" height="400" fill="#f0f0f0"/>
-                            <text x="250" y="180" text-anchor="middle" font-family="Arial" font-size="64" font-weight="bold" fill="#ccc">УМП-1</text>
-                            <text x="250" y="220" text-anchor="middle" font-family="Arial" font-size="20" fill="#999">Мини-погрузчик</text>
-                            <text x="250" y="250" text-anchor="middle" font-family="Arial" font-size="14" fill="#bbb">(изображение)</text>
-                        </svg>
+                        <img src="img/pogr.png" alt="Погрузчик">
                     </div>
                     <div class="image-stripe"></div>
                 </div>
@@ -379,15 +376,7 @@
                     </div>
                 </div>
                 <div class="contact-map">
-                    <div class="map-placeholder">
-                        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="200" height="200" fill="#f0f0f0"/>
-                            <text x="100" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="#999">Карта</text>
-                            <text x="100" y="110" text-anchor="middle" font-family="Arial" font-size="10" fill="#ccc">г. Кобрин</text>
-                            <circle cx="100" cy="75" r="8" fill="#00b894" opacity="0.3"/>
-                            <circle cx="100" cy="75" r="4" fill="#00b894"/>
-                        </svg>
-                    </div>
+                    <div id="map" class="map-placeholder"></div>
                 </div>
             </div>
         </div>
