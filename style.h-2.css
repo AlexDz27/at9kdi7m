@@ -1097,6 +1097,10 @@ RESPONSIVE DESIGN
 }
 
 @media (max-width: 508px) {
+  .header {
+    padding-top: 0;
+  }
+
   .logo img {
     display: none;
   }
@@ -1104,7 +1108,7 @@ RESPONSIVE DESIGN
   .nav__logo {
     display: initial;
   }
-  .nav__logo img {
+  .nav__logo {
     display: initial;
     width: 100%;
     max-width: 80px;
