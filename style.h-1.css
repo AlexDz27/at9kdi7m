@@ -145,7 +145,6 @@ HEADER
   letter-spacing: 0.5px;
   position: relative;
 }
-
 .nav a::after {
   content: '';
   position: absolute;
@@ -156,13 +155,15 @@ HEADER
   background: #00b894;
   transition: width 0.3s;
 }
-
 .nav a:hover {
   color: #00b894;
 }
-
 .nav a:hover::after {
   width: 100%;
+}
+
+.nav__logo {
+  display: none;
 }
 
 /* ============================================
@@ -1098,6 +1099,15 @@ RESPONSIVE DESIGN
 @media (max-width: 508px) {
   .logo img {
     display: none;
+  }
+
+  .nav__logo {
+    display: initial;
+  }
+  .nav__logo img {
+    display: initial;
+    width: 100%;
+    max-width: 80px;
   }
 }
 
