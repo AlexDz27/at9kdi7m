@@ -1105,6 +1105,36 @@ RESPONSIVE DESIGN
   .contact-item a {
     font-size: 18px;
   }
+
+  .service-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    padding: 20px 16px;
+  }
+
+  .service-card .service-icon {
+    margin: 0 15px 0 0;
+    width: 60px;
+    height: 60px;
+    flex: 0 0 auto;
+  }
+
+  .service-card .service-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .service-card h3 {
+    flex: 1 1 auto;
+    margin: 0;
+  }
+
+  .service-card p {
+    flex: 0 0 100%;
+    margin: 10px 0 0;
+  }
 }
 
 @media (max-width: 508px) {
