@@ -713,6 +713,11 @@ WHY US SECTION
   background: #1a1a1a;
   position: relative;
 }
+@media (max-width: 768px) {
+  .why-us {
+    padding-bottom: 55px;
+  }
+}
 
 .why-us::before {
   content: '';
@@ -733,7 +738,7 @@ WHY US SECTION
 .why-us .section-title {
   color: #fff;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 .why-us .section-title::after {
@@ -743,7 +748,7 @@ WHY US SECTION
 .advantages-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 15px;
 }
 
 .advantage-item {
@@ -754,6 +759,12 @@ WHY US SECTION
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s;
+}
+@media (max-width: 768px) {
+  .advantage-item {
+    gap: 10px;
+    padding: 11px;
+  }
 }
 
 .advantage-item:hover {
