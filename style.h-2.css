@@ -526,7 +526,8 @@ PRODUCTION & REPAIR SECTIONS
   overflow: hidden;
 }
 
-.card-accent {
+.service-card::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -542,7 +543,7 @@ PRODUCTION & REPAIR SECTIONS
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.service-card:hover .card-accent {
+.service-card:hover::before {
   width: 100%;
 }
 
